@@ -18,7 +18,8 @@
             Vue.prototype.$youtubeAuth = youtubeAuth
 
             if (typeof options === 'object') {
-                config = Object.assign(options, { scope: 'https://www.googleapis.com/auth/youtube.readonly' })
+                // config = Object.assign(options, { scope: 'https://www.googleapis.com/auth/youtube.readonly' })
+                config = options;
             }
         }
     }

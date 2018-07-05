@@ -12,8 +12,11 @@ npm add https://github.com/theMotivators/vue-youtube-auth.git
 ```
 import youtubeAuth from 'vue-youtube-auth'
 
-Vue.use(youtubeAuth, { clientID: 'xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com' })
-Vue.youtubeAuth().load()
+  Vue.use(youtubeAuth, { 
+    clientID: 'xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com', 
+    scope: 'https://www.googleapis.com/auth/youtube.readonly' //set custom scope
+  })
+  Vue.youtubeAuth().load()
 ```
 Ideally you shall place this in your app entry file, e.g. src/main.js
 
