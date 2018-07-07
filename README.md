@@ -1,4 +1,4 @@
-# vue-google-auth
+# vue-youtube-auth
 Handling Youtube sign-in and sign-out for Vue.js applications
 
 ## Installation
