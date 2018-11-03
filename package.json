@@ -1,6 +1,6 @@
 {
     "name": "vue-youtube-auth",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Handling Youtube sign-in and sign-out",
     "main": "index.js",
     "scripts": {
@@ -25,5 +25,5 @@
     "bugs": {
         "url": "https://github.com/theMotivators/vue-youtube-auth/issues"
     },
-    "homepage": "https://github.com/theMotivators/vue-youtube-auth#readme"
+    "homepage": "https://github.com/theMotivators/vue-youtube-auth#readme",
 }

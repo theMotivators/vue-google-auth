@@ -71,6 +71,10 @@
                 }, function(error) {
                     errorCallback(error)
                 })
+            },
+
+            getCurrentUser: function() {
+                return window.gapi.auth2.getAuthInstance().currentUser.get();
             }
         }
     }
