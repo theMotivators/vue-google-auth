@@ -75,6 +75,10 @@
 
             getCurrentUser: function() {
                 return window.gapi.auth2.getAuthInstance().currentUser.get();
+            },
+
+            getAuthInstance: function() {
+                return window.gapi.auth2.getAuthInstance();
             }
         }
     }
